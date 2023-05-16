@@ -1,0 +1,11 @@
+#!/bin/bash
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo \"[Husky] pre-commit run lint-staged\"
+
+npx lint-staged
+
+echo \"[Husky] pre-commit run npx commitlint\"
+
+npx --no -- commitlint --edit ${1}
+

@@ -13,7 +13,8 @@ WORK IN PROGRESS
 ## ✨ Tecnologia
 
 - [fastify](https://www.fastify.io/)
-- [Javascript](https://www.javascript.com/)
+- [JavaScript](https://www.javascript.com/)
+- [TypeScript](https://www.typescriptlang.org/)
 
 ## 🔖 Layout
 

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx --watch src/server.ts",
-    "lint:fix": "eslint --fix",
+    "lint:fix": "eslint src --ext .ts --fix",
     "prettier": "prettier \"src/**/*.+(ts|js)\" --check",
     "prettier:fix": "prettier --write \"src/**/*.+(ts|js|json)\"",
     "prepare": "husky install"

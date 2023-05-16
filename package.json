@@ -8,6 +8,8 @@
     "lint:fix": "eslint src --ext .ts --fix",
     "prettier": "prettier \"src/**/*.+(ts|js)\" --check",
     "prettier:fix": "prettier --write \"src/**/*.+(ts|js|json)\"",
+    "migration:dev": "prisma migrate dev",
+    "prisma:studio": "prisma studio",
     "prepare": "husky install"
   },
   "keywords": [],
@@ -30,6 +32,7 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
+    "@prisma/client": "^4.14.0",
     "fastify": "^4.17.0"
   }
 }

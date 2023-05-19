@@ -1,9 +1,13 @@
+import cors from '@fastify/cors';
 import fastify from 'fastify';
+import { memoriesRoutes } from './routes/memories';
 
 const app = fastify();
 
-app.get('/hello', () => {
-  return 'Hello World!';
+app.register(memoriesRoutes);
+
+app.register(cors, {
+  origin: true,
 });
 
 app

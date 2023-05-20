@@ -16,20 +16,21 @@
   "author": "Diguya Developer",
   "license": "ISC",
   "devDependencies": {
-    "@rocketseat/eslint-config": "^1.2.0",
     "@commitlint/cli": "^17.6.3",
     "@commitlint/config-conventional": "^17.6.3",
+    "@rocketseat/eslint-config": "^1.2.0",
     "@types/node": "^20.1.4",
     "dotenv": "^16.0.3",
+    "eslint": "^8.40.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.2",
     "prisma": "^4.14.0",
     "tsx": "^3.12.7",
-    "eslint": "^8.40.0",
     "typescript": "^5.0.4"
   },
   "dependencies": {
     "@fastify/cors": "^8.2.1",
+    "@fastify/jwt": "^6.7.1",
     "@prisma/client": "^4.14.0",
     "axios": "^1.4.0",
     "fastify": "^4.17.0",

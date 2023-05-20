@@ -1,5 +1,5 @@
 {
-  "*/src/*.{js,ts,json,md}": [
+  "**/src/**/*.{js,ts,json,md}": [
     "eslint --fix",
     "prettier --write --list-different"
   ]
